@@ -1,0 +1,38 @@
+<div class="container mt-3">
+  <table  class="table table-bordered table-hover">
+    <thead>
+    <tr style="text-align: center" class="table-dark">
+      <th>Id</th>
+      <th>Code</th>
+      <th>Name</th>
+      <th>Birth day</th>
+      <th>Gender</th>
+      <th>Id card</th>
+      <th>Phone</th>
+      <th>Email</th>
+      <th>Address</th>
+      <th>customerType</th>
+      <th>Action</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr *ngFor="let customers of customer">
+      <td>{{customers.id}}</td>
+      <td>{{customers.code}}</td>
+      <td>{{customers.name}}</td>
+      <td>{{customers.birthday}}</td>
+      <td>{{customers.gender}}</td>
+      <td>{{customers.idCard}}</td>
+      <td>{{customers.phone}}</td>
+      <td>{{customers.email}}</td>
+      <td>{{customers.address}}</td>
+      <td>{{customers.customerType.name}}</td>
+      <td style="text-align: center">
+        <a class="btn btn-warning " style="margin-left: 10px">Detail</a>
+        <a class="btn btn-primary" style="margin-left: 10px">Edit</a>
+        <a class="btn btn-danger" style="margin-left: 10px">Delete</a>
+      </td>
+    </tr>
+    </tbody>
+  </table>
+</div>

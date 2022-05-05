@@ -1,0 +1,38 @@
+<div class="container mt-3">
+  <table  class="table table-bordered table-hover">
+    <thead>
+    <tr style="text-align: center" class="table-dark">
+      <th>Id</th>
+      <th>Name</th>
+      <th>Birth day</th>
+      <th>Id card</th>
+      <th>Phone</th>
+      <th>Email</th>
+      <th>Salary</th>
+      <th>Education</th>
+      <th>Position</th>
+      <th>Division</th>
+      <th>Action</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr *ngFor="let employees of employee">
+      <td>{{employees.id}}</td>
+      <td>{{employees.name}}</td>
+      <td>{{employees.birthday}}</td>
+      <td>{{employees.idCard}}</td>
+      <td>{{employees.phone}}</td>
+      <td>{{employees.email}}</td>
+      <td>{{employees.salary}}</td>
+      <td>{{employees.education.name}}</td>
+      <td>{{employees.position.name}}</td>
+      <td>{{employees.division.name}}</td>
+      <td style="text-align: center">
+        <a class="btn btn-warning " style="margin-left: 10px">Detail</a>
+        <a class="btn btn-primary" style="margin-left: 10px">Edit</a>
+        <a class="btn btn-danger" style="margin-left: 10px">Delete</a>
+      </td>
+    </tr>
+    </tbody>
+  </table>
+</div>

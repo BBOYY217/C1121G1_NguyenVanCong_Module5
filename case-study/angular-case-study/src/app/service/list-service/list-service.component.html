@@ -1,0 +1,32 @@
+<div class="container mt-3">
+  <table  class="table table-bordered table-hover">
+    <thead>
+    <tr style="text-align: center" class="table-dark">
+      <th>Id</th>
+      <th>Name</th>
+      <th>Area</th>
+      <th>Cost</th>
+      <th>Max people</th>
+      <th>Rent type</th>
+      <th>Attach service</th>
+      <th>Action</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr *ngFor="let services of service">
+      <td>{{services.id}}</td>
+      <td>{{services.name}}</td>
+      <td>{{services.area}}</td>
+      <td>{{services.cost}}</td>
+      <td>{{services.maxPeople}}</td>
+      <td>{{services.rentType.name}}</td>
+      <td>{{services.attachService.name}}</td>
+      <td style="text-align: center">
+        <a class="btn btn-warning " style="margin-left: 10px">Detail</a>
+        <a class="btn btn-primary" style="margin-left: 10px">Edit</a>
+        <a class="btn btn-danger" style="margin-left: 10px">Delete</a>
+      </td>
+    </tr>
+    </tbody>
+  </table>
+</div>

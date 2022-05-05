@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="3946ccf1-a718-475d-a630-73bc870c36f5" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/fibonacci.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/main.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/main.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tsc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tsconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../practice/check-prime/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../practice/check-prime/.idea/check-prime.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../practice/check-prime/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../practice/check-prime/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../practice/check-prime/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../practice/check-prime/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../practice/check-prime/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../practice/check-prime/src/main.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../practice/check-prime/tsconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../practice/loop/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../practice/loop/.idea/loop.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../practice/loop/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../practice/loop/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../practice/loop/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../practice/loop/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../practice/loop/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../practice/loop/src/main.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../practice/loop/tsconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../practice/promise/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../practice/promise/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../practice/promise/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../practice/promise/.idea/promise.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../practice/promise/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../practice/promise/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../practice/promise/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../practice/promise/src/main.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../practice/promise/tsconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../practice/shape/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../practice/shape/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../practice/shape/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../practice/shape/.idea/shape.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../practice/shape/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../practice/shape/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../practice/shape/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../practice/shape/src/IArea.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../practice/shape/src/main.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../practice/shape/src/rectangle.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../practice/shape/src/shape.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../practice/shape/tsconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../practice/variable/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../practice/variable/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../practice/variable/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../practice/variable/.idea/variable.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../practice/variable/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../practice/variable/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../practice/variable/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../practice/variable/src/main.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../practice/variable/tsconfig.json" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="tsconfig.json" />
+        <option value="TypeScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="ProjectId" id="28iwOou0Dh7wsu9HLRsZDH7fvla" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="ts.external.directory.path" value="D:\CodeGym\C1121G1_NguyenVanCong_Module5\bai2_typescript\exercise\fibonacci\node_modules\typescript\lib" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3946ccf1-a718-475d-a630-73bc870c36f5" name="Default Changelist" comment="" />
+      <created>1651712684377</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1651712684377</updated>
+      <workItem from="1651712687563" duration="1124000" />
+      <workItem from="1651715721466" duration="10000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+    <option name="exactExcludedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/src/main.js" />
+      </list>
+    </option>
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="1204" height="272" key="GridCell.Tab.0.bottom" timestamp="1651713821631">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1204" height="272" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1651713821631" />
+    <state width="1204" height="272" key="GridCell.Tab.0.center" timestamp="1651713821631">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1204" height="272" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1651713821631" />
+    <state width="1204" height="272" key="GridCell.Tab.0.left" timestamp="1651713821631">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1204" height="272" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1651713821631" />
+    <state width="1204" height="272" key="GridCell.Tab.0.right" timestamp="1651713821631">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1204" height="272" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1651713821631" />
+  </component>
+</project>
