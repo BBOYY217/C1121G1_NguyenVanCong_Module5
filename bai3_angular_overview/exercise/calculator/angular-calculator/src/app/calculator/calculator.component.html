@@ -1,0 +1,28 @@
+<div class=container>
+  <h2 style="text-align: center">Calculator</h2>
+  <table class="table  table-striped" style="text-align: center">
+    <tr>
+      <td><input type="number" #a ></td>
+    </tr>
+    <br>
+    <tr>
+      <td>
+        <button (click)="calculator(a.valueAsNumber , b.valueAsNumber ,'+')" type="button" class="btn btn-primary"
+                style="margin-left: 10px;color: black">+</button>
+        <button (click)="calculator(a.valueAsNumber , b.valueAsNumber  ,'-')" type="button" class="btn btn-success"
+                style="margin-left: 10px;color: black">-</button>
+        <button (click)="calculator(a.valueAsNumber , b.valueAsNumber  ,'*')" type="button" class="btn btn-warning"
+                style="margin-left: 10px;color: black">*</button>
+        <button (click)="calculator(a.valueAsNumber , b.valueAsNumber  ,'/')" type="button" class="btn btn-danger"
+                style="margin-left: 10px;color: black">/</button>
+      </td>
+    </tr>
+    <br>
+    <tr>
+      <td ><input type="number" #b ></td>
+    </tr>
+    <tr>
+      <h2>{{result}}</h2>
+    </tr>
+  </table>
+</div>

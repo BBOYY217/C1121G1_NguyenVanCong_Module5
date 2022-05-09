@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="8d5a2b96-7f5c-42fb-9e44-d3c326feb2f9" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../bai3_angular_overview/exercise/calculator/angular-calculator/src/app/calculator/calculator.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bai3_angular_overview/exercise/calculator/angular-calculator/src/app/calculator/calculator.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bai3_angular_overview/exercise/calculator/angular-calculator/src/app/calculator/calculator.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bai3_angular_overview/exercise/color/angular-pick-color/src/app/color/color.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bai3_angular_overview/exercise/color/angular-pick-color/src/app/color/color.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bai3_angular_overview/exercise/color/angular-pick-color/src/app/color/color.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bai3_angular_overview/practice/bootstrap/angular-bootstrap/src/app/product/product.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bai3_angular_overview/practice/bootstrap/angular-bootstrap/src/app/product/product.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bai3_angular_overview/practice/bootstrap/angular-bootstrap/src/app/product/product.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bai3_angular_overview/practice/font-size/angular-font-size/src/app/font-size/font-size.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bai3_angular_overview/practice/font-size/angular-font-size/src/app/font-size/font-size.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bai3_angular_overview/practice/font-size/angular-font-size/src/app/font-size/font-size.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bai3_angular_overview/practice/pet-info/angular-pet-info/src/app/pet.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bai3_angular_overview/practice/pet-info/angular-pet-info/src/app/pet/pet.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bai3_angular_overview/practice/pet-info/angular-pet-info/src/app/pet/pet.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bai3_angular_overview/practice/pet-info/angular-pet-info/src/app/pet/pet.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular-case-study/src/app/app-routing.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/angular-case-study/src/app/app-routing.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular-case-study/src/app/contract/list-contract/list-contract.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/angular-case-study/src/app/contract/list-contract/list-contract.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular-case-study/src/app/customer/create-customer/create-customer.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/angular-case-study/src/app/customer/create-customer/create-customer.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular-case-study/src/app/customer/create-customer/create-customer.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular-case-study/src/app/customer/list-customer/list-customer.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/angular-case-study/src/app/customer/list-customer/list-customer.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular-case-study/src/app/employee/create-employee/create-employee.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/angular-case-study/src/app/employee/create-employee/create-employee.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular-case-study/src/app/employee/list-employee/list-employee.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/angular-case-study/src/app/employee/list-employee/list-employee.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular-case-study/src/app/facility/list-facilities/list-facilities.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/angular-case-study/src/app/facility/list-facilities/list-facilities.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular-case-study/src/app/header/header.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/angular-case-study/src/app/header/header.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular-case-study/src/app/service/list-service/list-service.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/angular-case-study/src/app/service/list-service/list-service.component.html" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="28v8eOzAeiFgCWyAg9iJbIySSsj" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8d5a2b96-7f5c-42fb-9e44-d3c326feb2f9" name="Default Changelist" comment="" />
+      <created>1652085793700</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1652085793700</updated>
+      <workItem from="1652085796962" duration="28000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+</project>
