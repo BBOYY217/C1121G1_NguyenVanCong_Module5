@@ -1,10 +1,7 @@
-<div class="container">
-  <div>
-    <input type="color" [(ngModel)] = "color" style="height: 50px;width: 100px">
-  </div>
-  <div [ngStyle]="{'background-color': color}">
-    <h1>
-      color
-    </h1>
-  </div>
+<div class="test" [ngStyle]="rgb()"></div>
+<div>
+  <label>Enter color:</label>
+  <input type="range" min="0" max="255" value="0" [(ngModel)]="r">
+  <input type="range" min="0" max="255" value="0" [(ngModel)]="g">
+  <input type="range" min="0" max="255" value="0" [(ngModel)]="b">
 </div>

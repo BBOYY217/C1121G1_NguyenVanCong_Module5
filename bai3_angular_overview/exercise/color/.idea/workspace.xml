@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="b7d8ee55-1fc3-4510-9bbf-762c9ab6ca27" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../../../bai5_compoment_interaction/exercise/count_down/angular-countdown-timer-app/src/app/countdown-time/countdown-time.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../bai5_compoment_interaction/exercise/count_down/angular-countdown-timer-app/src/app/countdown-time/countdown-time.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../bai5_compoment_interaction/exercise/count_down/angular-countdown-timer-app/src/app/countdown-time/countdown-time.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../bai5_compoment_interaction/exercise/rating_bar/angular-rating-bar/src/app/rating-bar/irating-bar.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../bai5_compoment_interaction/exercise/rating_bar/angular-rating-bar/src/app/rating-bar/rating-bar.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../bai5_compoment_interaction/exercise/rating_bar/angular-rating-bar/src/app/rating-bar/rating-bar.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../bai5_compoment_interaction/exercise/rating_bar/angular-rating-bar/src/app/rating-bar/rating-bar.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../bai5_compoment_interaction/practice/name-card/angular-name-card/src/app/name-card/name-card.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../bai5_compoment_interaction/practice/name-card/angular-name-card/src/app/name-card/name-card.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../bai5_compoment_interaction/practice/name-card/angular-name-card/src/app/name-card/name-card.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../bai5_compoment_interaction/practice/name-card/angular-name-card/src/assets/file_type_angular_icon_130754.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../bai5_compoment_interaction/practice/progress-bar/angular-progress-bar/src/app/progress-bar/progress-bar.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../bai5_compoment_interaction/practice/progress-bar/angular-progress-bar/src/app/progress-bar/progress-bar.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../bai5_compoment_interaction/practice/progress-bar/angular-progress-bar/src/app/progress-bar/progress-bar.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../case-study/angular-case-study/src/app/data.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../../case-study/angular-case-study/src/app/data.json" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="ProjectId" id="290myj5wjIa5lksW1iJastfrVPC" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="ts.external.directory.path" value="D:\CodeGym\C1121G1_NguyenVanCong_Module5\bai3_angular_overview\exercise\color\angular-pick-color\node_modules\typescript\lib" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b7d8ee55-1fc3-4510-9bbf-762c9ab6ca27" name="Default Changelist" comment="" />
+      <created>1652258633677</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1652258633677</updated>
+      <workItem from="1652258635380" duration="80000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+</project>

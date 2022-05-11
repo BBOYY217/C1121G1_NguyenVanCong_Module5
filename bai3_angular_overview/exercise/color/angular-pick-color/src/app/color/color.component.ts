@@ -6,10 +6,18 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./color.component.css']
 })
 export class ColorComponent implements OnInit {
-color: string;
+  r = 0;
+  g = 0;
+  b = 0;
   constructor() { }
 
   ngOnInit(): void {
   }
+  rgb() {
+    let styles = {
+      'background-color': 'rgb(' + this.r + ',' + this.g + ',' + this.b + ')',
+    };
+    return styles;
 
+  }
 }
