@@ -18,10 +18,9 @@ import {CommonModule} from '@angular/common';
     DeleteProductComponent
   ],
   imports: [
-    CommonModule,
-    BrowserModule,
     ProductRoutingModule,
-    ReactiveFormsModule
+    ReactiveFormsModule,
+    CommonModule
   ],
 
 })

@@ -36,6 +36,6 @@ this.activatedRoute.paramMap.subscribe((paramMap:ParamMap)=>{
 
   deleteProduct(id: number) {
     this.productService.deleteProduct(id);
-    this.router.navigate(['/product/list']);
+    this.router.navigate(['/product/list-product']);
   }
 }
