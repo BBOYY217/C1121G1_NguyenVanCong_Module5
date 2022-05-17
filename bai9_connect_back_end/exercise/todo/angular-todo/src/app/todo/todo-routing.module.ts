@@ -8,20 +8,16 @@ import {TodoDeleteComponent} from './todo-delete/todo-delete.component';
 
 const routes: Routes = [
   {
-    path: 'list',
-    component: TodoListComponent
+    path: 'list', component: TodoListComponent
   },
   {
-    path: 'create',
-    component: TodoCreateComponent
+    path: 'create', component: TodoCreateComponent
   },
   {
-    path: 'edit/:id',
-    component: TodoEditComponent
+    path: 'edit/:id',component: TodoEditComponent
   },
   {
-    path: 'delete/:id',
-    component: TodoDeleteComponent
+    path: 'delete/:id', component: TodoDeleteComponent
   }
 ];
 

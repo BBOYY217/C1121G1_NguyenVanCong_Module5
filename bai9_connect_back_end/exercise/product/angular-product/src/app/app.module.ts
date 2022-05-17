@@ -3,23 +3,19 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { TodoListComponent } from './todo/todo-list/todo-list.component';
-import {ReactiveFormsModule} from "@angular/forms";
-import {TodoModule} from "./todo/todo.module";
 import {HttpClientModule} from "@angular/common/http";
+
+import {ReactiveFormsModule} from "@angular/forms";
+import {ProductModule} from "./product/product.module";
 
 @NgModule({
   declarations: [
     AppComponent,
-    TodoListComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    ReactiveFormsModule,
-    TodoModule,
-    HttpClientModule
-
+    HttpClientModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

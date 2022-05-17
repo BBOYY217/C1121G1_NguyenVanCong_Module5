@@ -1,20 +1,17 @@
 c<h2>Todo list</h2>
 <a routerLink="/todo/create">Create</a>
-<div>
-  <ul>
-    <li *ngFor="let todo of todoList; index as i" [class.complete]="todo.complete" (click)="completeTodo(i)">
-      <ul>
-        <li>{{todo.id}}</li>
-        <li>{{todo.content}}</li>
-      </ul>
-      <ul>
-        <li>
-          <a [routerLink]="['/todo/edit', todo.id]">Edit</a>
-        </li>
-        <li>
-          <a [routerLink]="['/todo/delete', todo.id]">Delete</a>
-        </li>
-      </ul>
-    </li>
-  </ul>
-</div>
+<table>
+  <tr>
+    <th>Id</th>
+    <th>Content</th>
+    <th colspan="2"></th>
+  </tr>
+  <tbody>
+  <tr *ngFor="let todo of todoList; index as i" [class.complete]="todo.complete" (click)="completeTodo(i)">
+    <td>{{todo.id}}</td>
+    <td>{{todo.content}}</td>
+    <td><a [routerLink]="['/todo/edit', todo.id]">Edit</a></td>
+    <td> <a [routerLink]="['/todo/delete', todo.id]">Delete</a></td>
+  </tr>
+  </tbody>
+</table>

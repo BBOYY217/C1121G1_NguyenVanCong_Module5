@@ -1,0 +1,66 @@
+{
+  "categoryList": [
+    {
+      "id": 1,
+      "name": "Apple"
+    },
+    {
+      "id": 2,
+      "name": "Samsung"
+    },
+    {
+      "name": "Xiaomi",
+      "id": 3
+    },
+    {
+      "name": "Nokia",
+      "id": 4
+    },
+    {
+      "name": "Razer",
+      "id": 5
+    }
+  ],
+  "productList": [
+    {
+      "name": "Iphone 12 Pro Max",
+      "price": "1200",
+      "description": "New 100%",
+      "category": {
+        "id": 1,
+        "name": "Apple"
+      },
+      "id": 1
+    },
+    {
+      "id": 2,
+      "name": "Samsung Galaxy A72",
+      "price": "450",
+      "description": "97%",
+      "category": {
+        "id": 2,
+        "name": "Samsung"
+      }
+    },
+    {
+      "id": 3,
+      "name": "Xiaomi Redmi Note 10 Pro",
+      "price": "1890",
+      "description": "New 100%",
+      "category": {
+        "name": "Xiaomi",
+        "id": 3
+      }
+    },
+    {
+      "id": 4,
+      "name": "Razer",
+      "price": "600.0",
+      "description": "beautiful",
+      "category": {
+        "name": "Razer",
+        "id": 5
+      }
+    }
+  ]
+}

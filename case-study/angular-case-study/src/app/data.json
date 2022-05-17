@@ -1,3 +1,76 @@
 {
-
+  "customerType": [
+    {
+      "id": 1,
+      "name": "Diamond"
+    },
+    {
+      "id": 2,
+      "name": "Platinium"
+    },
+    {
+      "id": 3,
+      "name": "Gold"
+    },
+    {
+      "id": 4,
+      "name": "Silver"
+    },
+    {
+      "id": 5,
+      "name": "Remember"
+    }
+  ],
+  "customer": [
+    {
+      "id": 1,
+      "code": "KH-0001",
+      "name": "Le Van A",
+      "birthday": "01/01/2001",
+      "gender": "nam",
+      "idCard": "123456789",
+      "phone":"012345678",
+      "email": "VanA@gmail.com",
+      "address": "DN",
+      "customerType": [
+        {
+          "id": 1,
+          "name": "Diamond"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "code": "KH-0002",
+      "name": "Le Van B",
+      "birthday": "02/02/2001",
+      "gender": "nam",
+      "idCard": "123456789",
+      "phone":"012345678",
+      "email": "VanB@gmail.com",
+      "address": "DN",
+      "customerType": [
+        {
+          "id": 2,
+          "name": "Platinium"
+        }
+      ]
+    },
+    {
+      "id": 3,
+         "name": "Le Van C",
+      "birthday": "03/03/2001",
+      "gender": "nam",
+      "idCard": "123456789",
+      "phone":"012345678",
+      "email": "VanC@gmail.com",
+      "address": "DN",
+      "customerType": [
+        {
+          "id": 3,
+          "name": "Gold"
+        }
+      ]
+    }
+  ]
 }
