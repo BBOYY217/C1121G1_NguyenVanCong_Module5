@@ -1,5 +1,5 @@
 import {Component, OnInit} from '@angular/core';
-import {FormControl, FormGroup} from "@angular/forms";
+import {FormControl, FormGroup, Validators} from "@angular/forms";
 import {ProductService} from "../../service/product.service";
 import {CategoryService} from "../../service/category.service";
 import {Category} from "../../model/category";
@@ -12,10 +12,12 @@ import {Category} from "../../model/category";
 export class ProductCreateComponent implements OnInit {
   productForm = new FormGroup({
     id: new FormControl(),
-    name: new FormControl(),
-    price: new FormControl(),
-    description: new FormControl(),
-    category: new FormControl()
+    code: new FormControl('',[Validators.required,Validators.pattern('^KH-\\d{4}$')]),
+    name: new FormControl('',[Validators.required,Validators.minLength(3)]),
+    price: new FormControl('',[Validators.required,Validators.min(1),Validators.pattern('^[0-9]+$')]),
+    date: new FormControl('',Validators.required),
+    description: new FormControl('',[Validators.required,Validators.minLength(3)]),
+    category: new FormControl("",Validators.required)
   });
 
   categoryList: Category[] = [];

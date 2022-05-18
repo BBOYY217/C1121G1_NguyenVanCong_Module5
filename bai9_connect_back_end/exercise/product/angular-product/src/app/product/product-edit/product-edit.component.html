@@ -1,45 +1,100 @@
-<h2>Edit</h2>
-<div class="col-6">
+<div class="container" style="width: 500px">
+  <h2 style="text-align: center">Edit</h2>
   <form [formGroup]="productForm" (ngSubmit)="updateProduct(id)" novalidate>
-    <div class="row mb-3">
+    <div class="row mb-2">
       <div class="col-4">
-        <label for="name" class="form-label">: </label>
+        <label for="code" class="form-label">Code (<label class="text-danger">*</label>)</label>
+      </div>
+      <div class="col-8">
+        <input type="text" class="form-control" id="code" formControlName="code" aria-describedby="codeError">
+        <p class="text-danger"
+           *ngIf="productForm.controls.code.hasError('required') && productForm.controls.code.touched">
+          Please input code
+        </p>
+        <p class="my-3 text-danger"
+           *ngIf="productForm.controls.code.hasError('pattern') && productForm.controls.code.touched">
+          Code must be like KH-0000
+        </p>
+      </div>
+    </div>
+    <div class="row mb-2">
+      <div class="col-4">
+        <label for="name" class="form-label">Name (<label class="text-danger">*</label>) </label>
       </div>
       <div class="col-8">
         <input type="text" class="form-control" id="name" formControlName="name" aria-describedby="nameError">
+        <p class="text-danger"
+           *ngIf="productForm.controls.name.hasError('required') && productForm.controls.name.touched">
+          Please input name
+        </p>
+        <p class=" text-danger"
+           *ngIf="productForm.controls.name.hasError('minlength') && productForm.controls.name.touched">
+          Name at least 3 characters
+        </p>
       </div>
     </div>
-    <div class="row mb-3">
+    <div class="row mb-2">
       <div class="col-4">
-        <label for="price" class="form-label">Name: </label>
+        <label for="price" class="form-label">Price(<label class="text-danger">*</label>) </label>
       </div>
       <div class="col-8">
         <input type="text" class="form-control" id="price" formControlName="price" aria-describedby="priceError">
+        <p class=" text-danger"
+           *ngIf="productForm.controls.price.hasError('required') && productForm.controls.price.touched">
+          Please input price
+        </p>
+        <p class=" text-danger"
+           *ngIf="productForm.controls.price.hasError('min') && productForm.controls.price.touched">
+          Must be greater than 0
+        </p>
+        <p class="3 text-danger"
+           *ngIf="productForm.controls.price.hasError('pattern') && productForm.controls.price.touched">
+          Must be number not a letter
+        </p>
       </div>
     </div>
-    <div class="row mb-3">
+    <div class="row mb-2">
       <div class="col-4">
-        <label for="description" class="form-label">Description: </label>
+        <label for="date" class="form-label">Date (<label class="text-danger">*</label>) </label>
       </div>
       <div class="col-8">
-        <input type="text" class="form-control" id="description" formControlName="description" aria-describedby="descriptionError">
+        <input type="date" class="form-control" id="date" formControlName="date" aria-describedby="dateError">
+        <p class=" text-danger"
+           *ngIf="productForm.controls.date.hasError('required') && productForm.controls.date.touched">
+          Please choose date
+        </p>
       </div>
     </div>
-    <div class="row mb-3">
+    <div class="row mb-2">
+      <div class="col-4">
+        <label for="description" class="form-label">Description(<label class="text-danger">*</label>) </label>
+      </div>
+      <div class="col-8">
+        <input type="text" class="form-control" id="description" formControlName="description"
+               aria-describedby="descriptionError">
+        <p class="text-danger" *ngIf="productForm.controls.description.hasError('required') && productForm.controls.description.touched">
+          Please input description
+        </p>
+      </div>
+    </div>
+    <div class="row mb-2">
       <div class="col-4">
         <label for="category" class="form-label">Category</label>
       </div>
       <div class="col-8">
-        <select id="category" name="category" formControlName="category" aria-describedby="categoryError">
-          <option [value]="null" disabled>---category---</option>
-          <option *ngFor="let c of categoryList" [ngValue]="c.id">{{c.name}}</option>
-        </select>
+        <select id="category" name="category" formControlName="category" aria-describedby="categoryError" style="width: 310px;height: 40px">
+          <option  selected disabled value="" style="text-align: center">------------Choose------------</option>
+          <option *ngFor="let c of categoryList" [ngValue]="c.id" style="text-align: center">{{c.name}}</option>
+        </select><br>
+        <p class=" text-danger" *ngIf="productForm.controls.category.hasError('required') && productForm.controls.category.touched">
+          Please choose category
+        </p>
       </div>
     </div>
-    <div class="row mb-3">
+    <div class="row mb-2">
       <div class="col-4"></div>
       <div class="col-4">
-        <button type="submit" class="btn btn-primary">Tạo mới</button>
+        <button type="submit" class="btn btn-primary">Edit</button>
       </div>
     </div>
   </form>

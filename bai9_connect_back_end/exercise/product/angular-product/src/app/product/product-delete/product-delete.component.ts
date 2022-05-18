@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import {FormControl, FormGroup} from "@angular/forms";
+import {FormControl, FormGroup, Validators} from "@angular/forms";
 import {Category} from "../../model/category";
 import {ProductService} from "../../service/product.service";
 import {CategoryService} from "../../service/category.service";
@@ -32,10 +32,12 @@ export class ProductDeleteComponent implements OnInit {
   getProduct(id: number) {
     return this.productService.findProductById(id).subscribe(product => {
       this.productForm = new FormGroup({
-        name: new FormControl(product.name),
-        price: new FormControl(product.price),
-        description: new FormControl(product.description),
-        category: new FormControl(product.category.id)
+        code: new FormControl(product.code,[Validators.required,Validators.pattern('^KH-\\d{4}$')]),
+        name: new FormControl(product.name,[Validators.required,Validators.minLength(3)]),
+        price: new FormControl(product.price,[Validators.required,Validators.min(1),Validators.pattern('^[0-9]+$')]),
+        date: new FormControl(product.date,Validators.required),
+        description: new FormControl(product.description,[Validators.required,Validators.minLength(3)]),
+        category: new FormControl(product.category.id,Validators.required)
       });
     });
   }

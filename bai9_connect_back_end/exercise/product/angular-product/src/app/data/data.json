@@ -43,14 +43,15 @@
       }
     },
     {
-      "id": 3,
+      "code": null,
       "name": "Xiaomi Redmi Note 10 Pro",
       "price": "1890",
+      "date": null,
       "description": "New 100%",
       "category": {
-        "name": "Xiaomi",
-        "id": 3
-      }
+        "name": 3
+      },
+      "id": 3
     },
     {
       "id": 4,
@@ -59,6 +60,17 @@
       "description": "beautiful",
       "category": {
         "name": "Razer",
+        "id": 5
+      }
+    },
+    {
+      "id": 5,
+      "code": "KH-0006",
+      "name": "Razer",
+      "price": "600",
+      "date": "2022-05-14",
+      "description": "beautiful",
+      "category": {
         "id": 5
       }
     }
